@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<h1>
+    INI YANG PAKE Constructor
+</h1>
+<body>
+    <script>
+        class orang {
+    constructor(nama,umur,tinggi){
+        this.nama = nama;
+        this.umur = umur;
+        this.tinggi = tinggi;
+    }
+}
+var orang1 = new orang("charlie","17th","178cm");
+
+document.write("nama :"+orang1.nama+"<br />");
+document.write("umur :"+orang1.umur+"<br />");
+document.write("tinggi :"+orang1.tinggi+"<br />");
+
+document.write("<hr />");
+
+
+var orang2 = new orang("buddy","15th","160cm");
+
+document.write("nama :"+orang2.nama+"<br />");
+document.write("umur :"+orang2.umur+"<br />");
+document.write("tinggi :"+orang2.tinggi+"<br />");
+    </script>
+</body>
+</html>
